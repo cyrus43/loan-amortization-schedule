@@ -60,7 +60,7 @@
 </head>
 <body>
 <div class="main">
-    <h1>Mortgage Calculator Form</h1>
+    <h1>Loan Amortization Schedule</h1>
     <p class="instructions">
         <ul>
             <li>The 'paymentType' of '0' means payment is at the beginning of the period and a '1' means that the payment is at the end of the period.</li>
@@ -72,9 +72,9 @@
         <form action="#" th:action="@{/showSchedule}" th:object="${monthlyAmortizationSchedule}" method="post">
             <p><input th:class="startDate" type="text" th:field="*{startDate}" /> &nbsp;startDate (MM/dd/yyyy)</p>
     	    <p><input th:class="interestRate" type="text" th:field="*{interestRate}" /> &nbsp;interestRate (%)</p>
-            <p><input th:class="initialBalance" type="text" th:field="*{initialBalance}" /> &nbsp;initialBalance ($)</p>
+            <p><input th:class="initialBalance" type="text" th:field="*{initialBalance}" /> &nbsp;initialBalance (Ksh)</p>
             <p><input th:class="durationInMonths" type="number" th:field="*{durationInMonths}" /> &nbsp;durationInMonths</p>
-            <p><input th:class="futureValue" type="text" th:field="*{futureValue}" onchange="withinBounds(this);" /> &nbsp;futureValue ($)</p>
+            <p><input th:class="futureValue" type="text" th:field="*{futureValue}" onchange="withinBounds(this);" /> &nbsp;futureValue (Ksh)</p>
             <p><input th:class="paymentType" type="number" th:field="*{paymentType}" onchange="booleanOnly(this);" /> &nbsp;paymentType (0 or 1)</p>
             <p><input type="submit" value="Calculate" /> <input type="button" value="Reset Fields" onclick="resetFields()" /></p>
         </form>
