@@ -1,14 +1,14 @@
-package app.finance.config;
+package com.singlify.loanamortizationschedule.finance.config;
 
-import app.finance.AppConfig;
+import com.singlify.loanamortizationschedule.finance.AppConfig;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRegistration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
 
 @Configuration
 public class WebInitializerConfig implements WebApplicationInitializer

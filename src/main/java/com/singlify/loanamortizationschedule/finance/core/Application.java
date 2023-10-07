@@ -1,4 +1,4 @@
-package app.finance.core;
+package com.singlify.loanamortizationschedule.finance.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package app.finance.core.model;
+package com.singlify.loanamortizationschedule.finance.core.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;

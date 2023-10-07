@@ -1,7 +1,7 @@
-package app.finance.core.service;
+package com.singlify.loanamortizationschedule.finance.core.service;
 
-import app.finance.core.model.MonthlyAmortizationSchedule;
-import app.finance.core.model.Payment;
+import com.singlify.loanamortizationschedule.finance.core.model.MonthlyAmortizationSchedule;
+import com.singlify.loanamortizationschedule.finance.core.model.Payment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;

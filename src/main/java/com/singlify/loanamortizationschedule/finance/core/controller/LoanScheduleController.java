@@ -1,7 +1,7 @@
 package com.singlify.loanamortizationschedule.finance.core.controller;
 
 import com.singlify.loanamortizationschedule.finance.core.model.MonthlyAmortizationSchedule;
-import com.singlify.loanamortizationschedule.finance.core.service.AmortizationService;
+import com.singlify.loanamortizationschedule.finance.core.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class MortgageCalculatorController
+public class LoanScheduleController
 {
     @Autowired
     private AmortizationService amortizationService;

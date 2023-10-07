@@ -1,6 +1,6 @@
-package app.finance.core.validator;
+package com.singlify.loanamortizationschedule.finance.core.validator;
 
-import app.finance.core.model.MonthlyAmortizationSchedule;
+import com.singlify.loanamortizationschedule.finance.core.model.MonthlyAmortizationSchedule;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;

@@ -1,4 +1,4 @@
-package app.finance.core;
+package com.singlify.loanamortizationschedule.finance.core;
 
 import java.util.Map;
 

@@ -1,8 +1,9 @@
-package app.finance;
+package com.singlify.loanamortizationschedule.finance;
 
-import app.finance.config.DispatcherConfig;
-import app.finance.config.ThymeleafConfig;
-import app.finance.config.WebInitializerConfig;
+
+import com.singlify.loanamortizationschedule.finance.config.DispatcherConfig;
+import com.singlify.loanamortizationschedule.finance.config.ThymeleafConfig;
+import com.singlify.loanamortizationschedule.finance.config.WebInitializerConfig;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -13,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "app.finance")
+@ComponentScan(basePackages = "com.singlify.loanamortizationschedule.finance")
 @Import({ WebInitializerConfig.class, DispatcherConfig.class, ThymeleafConfig.class})
 public class AppConfig
 {

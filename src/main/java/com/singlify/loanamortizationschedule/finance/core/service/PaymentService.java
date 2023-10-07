@@ -1,4 +1,4 @@
-package app.finance.core.service;
+package com.singlify.loanamortizationschedule.finance.core.service;
 
 // some basics:
 // http://www.investopedia.com/articles/03/101503.asp
