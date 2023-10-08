@@ -12,9 +12,9 @@ public class Payment
     private double interestPaid;
     private double accumulatedInterest;
 
-    public Payment(int paymentNumber, Date paymentDate, double balance, double principalPaid, double interestPaid, double accumulatedInterest)
+    public Payment(int paymentMonth, Date paymentDate, double balance, double principalPaid, double interestPaid, double accumulatedInterest)
     {
-        setPaymentNumber(paymentNumber);
+        setPaymentNumber(paymentMonth);
         setPaymentDate(paymentDate);
         setBalance(balance);
         setPrincipalPaid(principalPaid);
