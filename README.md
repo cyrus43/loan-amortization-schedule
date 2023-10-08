@@ -72,5 +72,5 @@ Just a loan amortization application using spring-boot and Thymeleaf.
 
 - Schedule page:
 
-![alt text](https://raw.githubusercontent.com/cyrus43/spring-boot-mortgage-calculator/master/schedule.png)
+![alt text](https://raw.githubusercontent.com/djangofan/spring-boot-mortgage-calculator/master/schedule.png)
 
