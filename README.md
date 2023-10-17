@@ -68,9 +68,3 @@ Just a loan amortization application using spring-boot and Thymeleaf.
 
 7. Access the Application: Once the application is running, open your web browser and navigate to [http://localhost:8080/] to access the application locally.
 
-## Images Of Application
-
-- Schedule page:
-
-![alt text](https://raw.githubusercontent.com/djangofan/spring-boot-mortgage-calculator/master/schedule.png)
-
